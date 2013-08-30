@@ -2,7 +2,7 @@
 <manifest>
      	<remote name="origin" fetch="https://cvs.lnf.infn.it" review="cvs.lnf.infn.it"/>
      	<default revision="master" remote="origin"/>
-     	<project name="chaosframework" remote="origin" revision="master" path="chaosframework">
+     	<project name="chaosframework" remote="origin" revision="development" path="chaosframework">
 		<copyfile dest="init_bundle.sh" src="init_bundle.sh"/>
 	</project>
      	<project name="CHAOS-SiemensS7-Driver" remote="origin" revision="development" path="driver/SiemensS7PLC"/>
