@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     	<remote name="origin" fetch="https://cvs.lnf.infn.it" review="cvs.lnf.infn.it"/>
-     	<default revision="master" remote="origin"/>
-     	<project name="chaosframework" remote="origin" revision="master" path="chaosframework"/>
-     	<project name="chaos_bundle_tools" remote="origin" revision="development" path="tools">
+     <remote name="origin" fetch="https://cvs.lnf.infn.it" review="cvs.lnf.infn.it"/>
+     <default revision="master" remote="origin"/>
+     <project name="chaosframework" remote="origin" revision="master" path="chaosframework"/>
+     <project name="chaos_bundle_tools" remote="origin" revision="master" path="tools">
 		<copyfile dest="init_bundle.sh" src="init_bundle.sh"/>
 	</project>
-     	<project name="CHAOS-SiemensS7-Driver" remote="origin" revision="master" path="driver/SiemensS7PLC"/>
+    <project name="CHAOS-SiemensS7-Driver" remote="origin" revision="master" path="driver/SiemensS7PLC"/>
 	<project name="CHAOS_ExampleControlUnit" remote="origin" revision="master" path="example/ExampleControlUnit"/>
  	<project name="CHAOS_ExampleUIToolkitCommandLine" remote="origin" revision="master" path="example/ExampleUIToolkitCommandLine"/>
  	<project name="chaos-example_uitoolkit_cwrapper" remote="origin" revision="master" path="example/ExampleUIToolkitCWrapper"/>
