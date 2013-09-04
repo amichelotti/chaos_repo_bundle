@@ -22,4 +22,8 @@
 	 <project name="chaos-common-modbus" remote="origin" revision="development" path="common/modbus"/>
 	 <project name="chaos-common-powersupply" remote="origin" revision="development" path="common/powersupply"/>
 	 <project name="chaos-common-test" remote="origin" revision="development" path="common/test"/>
+	 
+	 <!-- experiment -->>
+	 <project name="chaos-hst_demo" remote="origin" revision="master" path="experimental/HSTDemo"/>
+
 </manifest>
