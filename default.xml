@@ -4,7 +4,7 @@
      <default revision="master" remote="origin"/>
 	 
 	 <!-- essential -->
-     <project name="chaosframework" remote="origin" revision="development" path="chaosframework"/>
+     <project name="chaosframework" remote="origin" revision="experimental" path="chaosframework"/>
      <project name="chaos_bundle_tools" remote="origin" revision="development" path="tools"/>
 	 
 	 <!-- driver -->
@@ -23,7 +23,7 @@
 	 <project name="chaos-common-powersupply" remote="origin" revision="development" path="common/powersupply"/>
 	 <project name="chaos-common-test" remote="origin" revision="development" path="common/test"/>
 	 
-	 <!-- experiment -->>
+	 <!-- experiment -->
 	 <project name="chaos-hst_demo" remote="origin" revision="master" path="experimental/HSTDemo"/>
 
 </manifest>
