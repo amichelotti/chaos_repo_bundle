@@ -4,8 +4,11 @@
      <default revision="master" remote="origin"/>
      <project name="chaosframework" remote="origin" revision="master" path="chaosframework"/>
      <project name="chaos_bundle_tools" remote="origin" revision="master" path="tools"/>
-    <project name="chaos_driver-siemens_s7" remote="origin" revision="master" path="driver/SiemensS7PLC"/>
-	<project name="chaos-example_control_unit" remote="origin" revision="master" path="example/ExampleControlUnit"/>
- 	<project name="chaos-example_uitoolkit_command_line" remote="origin" revision="master" path="example/ExampleUIToolkitCommandLine"/>
- 	<project name="chaos-example_uitoolkit_cwrapper" remote="origin" revision="master" path="example/ExampleUIToolkitCWrapper"/>
+	 <!-- driver -->
+	 <project name="chaos-driver-siemens-s7" remote="origin" revision="master" path="driver/SiemensS7PLC"/>
+	 
+	 <!-- example -->
+	 <project name="chaos-example-control-unit" remote="origin" revision="master" path="example/ExampleControlUnit"/>
+ 	 <project name="chaos-example-uitoolkit-command-line" remote="origin" revision="master" path="example/ExampleUIToolkitCommandLine"/>
+ 	 <project name="chaos-example-uitoolkit-cwrapper" remote="origin" revision="master" path="example/ExampleUIToolkitCWrapper"/>
 </manifest>
