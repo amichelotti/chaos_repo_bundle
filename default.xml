@@ -16,9 +16,9 @@
  	 <project name="chaos-example-uitoolkit-cwrapper" remote="origin" revision="development" path="example/ExampleUIToolkitCWrapper"/>
 	 
 	 <!-- common -->
-	 <!-- <project name="chaos-common-serial" remote="origin" revision="development" path="common/common-serial"/>-->
+	 <project name="chaos-common-serial" remote="origin" revision="development" path="common/common-serial"/>
 	 <project name="chaos-common-debug" remote="origin" revision="development" path="common/common-debug"/>
-	 <!-- <project name="chaos-common-modbus" remote="origin" revision="development" path="common/common-modbus"/>-->
-	 <!-- <project name="chaos-common-powersupply" remote="origin" revision="development" path="common/common-powersupply"/>-->
+	 <project name="chaos-common-modbus" remote="origin" revision="development" path="common/common-modbus"/>
+	 <project name="chaos-common-powersupply" remote="origin" revision="development" path="common/common-powersupply"/>
 
 </manifest>
