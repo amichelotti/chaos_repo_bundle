@@ -9,7 +9,7 @@
 	 
 	 <!-- driver -->
 	 <project name="chaos-driver-siemens-s7" remote="origin" revision="development" path="driver/SiemensS7PLC"/>
-	 
+	 <project name="chaos-driver-powersupply" remote="origin" revision="development" path="driver/powersupply"/>
 	 <!-- example -->
 	 <project name="chaos-example-control-unit" remote="origin" revision="development" path="example/ExampleControlUnit"/>
  	 <project name="chaos-example-uitoolkit-command-line" remote="origin" revision="development" path="example/ExampleUIToolkitCommandLine"/>
