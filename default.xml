@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <remote name="origin" fetch="https://cvs.lnf.infn.it" review="cvs.lnf.infn.it"/>
+     <remote name="origin" fetch="ssh://git@opensource.lnf.infn.it:7999/chsbndl"/>
      <default revision="master" remote="origin"/>
      <project name="chaosframework" remote="origin" revision="master" path="chaosframework"/>
      <project name="chaos_bundle_tools" remote="origin" revision="master" path="tools"/>
 	 <!-- driver -->
 	 <project name="chaos-driver-siemens-s7" remote="origin" revision="master" path="driver/SiemensS7PLC"/>
-	 
+
 	 <!-- example -->
 	 <project name="chaos-example-control-unit" remote="origin" revision="master" path="example/ExampleControlUnit"/>
  	 <project name="chaos-example-uitoolkit-command-line" remote="origin" revision="master" path="example/ExampleUIToolkitCommandLine"/>
