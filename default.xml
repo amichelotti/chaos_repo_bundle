@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <remote name="origin" fetch="ssh://git@opensource.lnf.infn.it:7999/chsbndl"/>
+     <remote name="origin" fetch="ssh://git@opensource-stash.infn.it:7999/chaos"/>
      <default revision="experimental" remote="origin"/>
 	 <!-- essential -->
 
