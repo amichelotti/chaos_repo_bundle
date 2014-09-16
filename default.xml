@@ -11,7 +11,8 @@
 	 <project name="chaos-driver-siemens-s7.git" remote="origin" revision="development" path="driver/SiemensS7PLC"/>
 	 <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
 	 <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="development" path="driver/oscilloscopes"/>
-   <project name="chaos-driver-chaos-mess.git" remote="origin" revision="development" path="driver/chaos-mess"/>
+	 <project name="chaos-driver-chaos-mess.git" remote="origin" revision="development" path="driver/chaos-mess"/>
+	 <project name="chaos-driver-modbus.git" remote="origin" revision="development" path="driver/modbus"/>
 	 <!-- example -->
 	 <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="example/ExampleControlUnit"/>
  	 <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="development" path="example/ExampleUIToolkitCommandLine"/>
