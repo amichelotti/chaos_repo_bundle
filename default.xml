@@ -15,11 +15,12 @@
   <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="example/ExampleControlUnit"/>
   <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="development" path="example/ExampleUIToolkitCommandLine"/>
   <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="development" path="example/ExampleUIToolkitCWrapper"/>
-  <project name="chaos-webgui.git" remote="origin" revision="development" path="webgui"/>
   <!-- common -->
   <project name="chaos-common-serial.git" remote="origin" revision="development" path="common/serial"/>
   <project name="chaos-common-debug.git" remote="origin" revision="development" path="common/debug"/>
   <project name="chaos-common-modbus.git" remote="origin" revision="development" path="common/modbus"/>
   <project name="chaos-common-powersupply.git" remote="origin" revision="development" path="common/powersupply"/>
   <project name="chaos-common-test.git" remote="origin" revision="development" path="common/test"/>
+  <!-- service -->
+  <project name="chaos-webgui.git" remote="origin" revision="development" path="service/webgui"/>
 </manifest>
