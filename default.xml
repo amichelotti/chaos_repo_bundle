@@ -6,7 +6,8 @@
      <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools"/>
      <!-- driver -->
-     <project name="chaos-driver-siemens-s7.git" remote="origin" revision="development" path="driver/SiemensS7PLC"/>
+     <!-- <project name="chaos-driver-siemens-s7.git" remote="origin" revision="development" path="driver/SiemensS7PLC"/> -->
+     <project name="chaos-driver-plc.git" remote="origin" revision="development" path="driver/plc"/>
      <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
      <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="development" path="driver/oscilloscopes"/>
      <project name="chaos-driver-chaos-mess.git" remote="origin" revision="development" path="driver/chaos-mess"/>
