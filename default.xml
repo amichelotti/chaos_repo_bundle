@@ -5,11 +5,11 @@
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools"/>
-     <!-- example -->
-     <project name="chaos-example-control-unit.git" remote="origin" revision="master" path="example/ExampleControlUnit"/>
-     <project name="chaos-examples.git" remote="origin" revision="master" path="example"/>
-     <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="master" path="example/ExampleUIToolkitCommandLine"/>
-     <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="master" path="example/ExampleUIToolkitCWrapper"/>
+     <!-- examples -->
+     <project name="chaos-example-control-unit.git" remote="origin" revision="master" path="examples/ExampleControlUnit"/>
+     <project name="chaos-examples.git" remote="origin" revision="master" path="examples"/>
+     <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCommandLine"/>
+     <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
      <project name="chaos-driver-plc.git" remote="origin" revision="development" path="driver/plc"/>
      <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
