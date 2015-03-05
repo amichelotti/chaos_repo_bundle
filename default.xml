@@ -3,27 +3,27 @@
      <remote name="origin" fetch="ssh://git@opensource-stash.infn.it:7999/chaos"/>
      <default revision="master" remote="origin"/>
      <!-- essential -->
-     <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
-     <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools"/>
+     <project name="chaosframework.git" remote="origin" revision="master" path="chaosframework"/>
+     <project name="chaos_bundle_tools.git" remote="origin" revision="master" path="tools"/>
      <!-- examples -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="master" path="examples/ExampleControlUnit"/>
      <project name="chaos-examples.git" remote="origin" revision="master" path="examples"/>
      <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCommandLine"/>
      <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
-     <project name="chaos-driver-plc.git" remote="origin" revision="development" path="driver/plc"/>
-     <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
-     <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="development" path="driver/oscilloscopes"/>
-     <project name="chaos-driver-chaos-mess.git" remote="origin" revision="development" path="driver/chaos-mess"/>
-     <project name="chaos-driver-modbus.git" remote="origin" revision="development" path="driver/modbus"/>
-     <project name="chaos-driver-sensors.git" remote="origin" revision="development" path="driver/sensors"/>
+     <project name="chaos-driver-plc.git" remote="origin" revision="master" path="driver/plc"/>
+     <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
+     <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>
+     <project name="chaos-driver-chaos-mess.git" remote="origin" revision="master" path="driver/chaos-mess"/>
+     <project name="chaos-driver-modbus.git" remote="origin" revision="master" path="driver/modbus"/>
+     <project name="chaos-driver-sensors.git" remote="origin" revision="master" path="driver/sensors"/>
      <!-- common -->
-     <project name="chaos-common-serial.git" remote="origin" revision="development" path="common/serial"/>
-     <project name="chaos-common-debug.git" remote="origin" revision="development" path="common/debug"/>
-     <project name="chaos-common-modbus.git" remote="origin" revision="development" path="common/modbus"/>
-     <project name="chaos-common-creset.git" remote="origin" revision="development" path="common/crest"/>
-     <project name="chaos-common-powersupply.git" remote="origin" revision="development" path="common/powersupply"/>
-     <project name="chaos-common-test.git" remote="origin" revision="development" path="common/test"/>
+     <project name="chaos-common-serial.git" remote="origin" revision="master" path="common/serial"/>
+     <project name="chaos-common-debug.git" remote="origin" revision="master" path="common/debug"/>
+     <project name="chaos-common-modbus.git" remote="origin" revision="master" path="common/modbus"/>
+     <project name="chaos-common-creset.git" remote="origin" revision="master" path="common/crest"/>
+     <project name="chaos-common-powersupply.git" remote="origin" revision="master" path="common/powersupply"/>
+     <project name="chaos-common-test.git" remote="origin" revision="master" path="common/test"/>
      <!-- service -->
-     <project name="chaos-webgui.git" remote="origin" revision="development" path="service/webgui"/>
+     <project name="chaos-webgui.git" remote="origin" revision="master" path="service/webgui"/>
 </manifest>
