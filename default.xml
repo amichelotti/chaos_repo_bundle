@@ -21,6 +21,7 @@
      <project name="chaos-common-serial.git" remote="origin" revision="development" path="common/serial"/>
      <project name="chaos-common-debug.git" remote="origin" revision="development" path="common/debug"/>
      <project name="chaos-common-modbus.git" remote="origin" revision="development" path="common/modbus"/>
+     <project name="chaos-common-creset.git" remote="origin" revision="development" path="common/crest"/>
      <project name="chaos-common-powersupply.git" remote="origin" revision="development" path="common/powersupply"/>
      <project name="chaos-common-test.git" remote="origin" revision="development" path="common/test"/>
      <!-- service -->
