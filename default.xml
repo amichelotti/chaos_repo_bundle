@@ -20,6 +20,7 @@
      <!-- common -->
      <project name="chaos-common-serial.git" remote="origin" revision="development" path="common/serial"/>
      <project name="chaos-common-crest.git" remote="origin" revision="development" path="common/crest"/>
+     <project name="chaos-common-vme.git" remote="origin" revision="development" path="common/vme"/>
      <project name="chaos-common-debug.git" remote="origin" revision="development" path="common/debug"/>
      <project name="chaos-common-modbus.git" remote="origin" revision="development" path="common/modbus"/>
      <project name="chaos-common-powersupply.git" remote="origin" revision="development" path="common/powersupply"/>
