@@ -12,6 +12,7 @@
      <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
      <project name="chaos-driver-plc.git" remote="origin" revision="master" path="driver/plc"/>
+     <project name="chaos-driver-daq.git" remote="origin" revision="master" path="driver/daq"/>
      <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
      <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>
      <project name="chaos-driver-chaos-mess.git" remote="origin" revision="master" path="driver/chaos-mess"/>
