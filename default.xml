@@ -11,6 +11,7 @@
      <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="development" path="examples/ExampleUIToolkitCommandLine"/>
      <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="development" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
+   <project name="chaos-driver-data_import.git" remote="origin" revision="development" path="driver/data-import"/>
      <project name="chaos-driver-plc.git" remote="origin" revision="development" path="driver/plc"/>
      <project name="chaos-driver-daq.git" remote="origin" revision="development" path="driver/daq"/>
      <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
