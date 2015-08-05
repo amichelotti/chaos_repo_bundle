@@ -7,7 +7,7 @@
      <project name="chaos_bundle_tools.git" remote="origin" revision="master" path="tools"/>
      <!-- examples -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="master" path="examples/ExampleControlUnit"/>
-     <project name="chaos-examples.git" remote="origin" revision="master" path="examples"/>
+     <!--<project name="chaos-examples.git" remote="origin" revision="development" path="examples"/>-->
      <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCommandLine"/>
      <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
