@@ -21,6 +21,7 @@
      <project name="chaos-driver-sensors.git" remote="origin" revision="master" path="driver/sensors"/>
      <project name="chaos-driver-misc.git" remote="origin" revision="master" path="driver/misc"/>
      <!-- common -->
+     <project name="chaos-common-labview.git" remote="origin" revision="master" path="common/labview"/>
      <project name="chaos-common-serial.git" remote="origin" revision="master" path="common/serial"/>
      <project name="chaos-common-debug.git" remote="origin" revision="master" path="common/debug"/>
      <project name="chaos-common-modbus.git" remote="origin" revision="master" path="common/modbus"/>
