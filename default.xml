@@ -2,6 +2,7 @@
 <manifest>
      <remote name="origin" fetch="ssh://git@opensource-stash.infn.it:7999/chaos"/>
      <default revision="master" remote="origin"/>
+     <project name="chaos-build-system.git" remote="origin" revision="development" path="."/>
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools"/>
