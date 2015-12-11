@@ -22,6 +22,7 @@
      <project name="chaos-driver-sensors.git" remote="origin" revision="development" path="driver/sensors"/>
      <project name="chaos-driver-misc.git" remote="origin" revision="development" path="driver/misc"/>
      <!-- common -->
+     <project name="chaos-common-actuators.git" remote="origin" revision="development" path="common/actuators"/>
      <project name="chaos-common-labview.git" remote="origin" revision="development" path="common/labview"/>
      <project name="chaos-common-misc.git" remote="origin" revision="development" path="common/misc"/>
      <project name="chaos-common-serial.git" remote="origin" revision="development" path="common/serial"/>
