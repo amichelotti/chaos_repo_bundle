@@ -6,7 +6,7 @@
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools">
-       <copyfile src="tools/config/local_test_config.sh" dest="CMakeLists.txt"/>
+       <copyfile src="config/local_test_config.sh" dest="CMakeLists.txt"/>
      </project>
      <!-- example -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="examples/ExampleControlUnit"/>
