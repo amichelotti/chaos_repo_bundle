@@ -5,7 +5,9 @@
      <project name="chaos-build-system.git" remote="origin" revision="development" path="."/>
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
-     <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools"/>
+     <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools">
+       <copyfile src="tools/config/local_test_config.sh" dest="CMakeLists.txt"/>
+     </project>
      <!-- example -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="examples/ExampleControlUnit"/>
      <!--<project name="chaos-examples.git" remote="origin" revision="development" path="examples"/>-->
@@ -36,3 +38,4 @@
      <!-- service -->
      <project name="chaos-webgui.git" remote="origin" revision="development" path="service/webgui"/>
 </manifest>
+
