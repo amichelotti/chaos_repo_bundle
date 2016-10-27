@@ -6,6 +6,7 @@
      <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools">
        <copyfile src="config/CMakeLists.txt" dest="CMakeLists.txt"/>
+       <copyfile src="config/ChangeLog" dest="ChangeLog"/>
      </project>
      <!-- example -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="examples/ExampleControlUnit"/>
