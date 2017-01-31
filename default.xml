@@ -15,14 +15,14 @@
      <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="development" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
      <project name="chaos-driver-data_import.git" remote="origin" revision="development" path="driver/data-import"/>
-     <project name="chaos-driver-plc.git" remote="origin" revision="development" path="driver/plc"/>
      <project name="chaos-driver-daq.git" remote="origin" revision="development" path="driver/daq"/>
-     <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
-     <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="development" path="driver/oscilloscopes"/>
+     <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/
      <project name="chaos-driver-modbus.git" remote="origin" revision="development" path="driver/modbus"/>
      <project name="chaos-driver-sensors.git" remote="origin" revision="development" path="driver/sensors"/>
      <project name="chaos-driver-misc.git" remote="origin" revision="development" path="driver/misc"/>
      <project name="chaos-driver-actuator.git" remote="origin" revision="development" path="driver/actuator"/>
+     <!-- <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
+      <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>-->
      <!-- common -->
      <project name="chaos-common-actuators.git" remote="origin" revision="development" path="common/actuators"/>
      <project name="chaos-common-labview.git" remote="origin" revision="development" path="common/labview"/>
@@ -37,4 +37,3 @@
      <!-- service -->
      <project name="chaos-webgui.git" remote="origin" revision="development" path="service/webgui"/>
 </manifest>
-
