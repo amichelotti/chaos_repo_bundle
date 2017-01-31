@@ -16,7 +16,7 @@
      <!-- driver -->
      <project name="chaos-driver-data_import.git" remote="origin" revision="development" path="driver/data-import"/>
      <project name="chaos-driver-daq.git" remote="origin" revision="development" path="driver/daq"/>
-     <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/
+     <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
      <project name="chaos-driver-modbus.git" remote="origin" revision="development" path="driver/modbus"/>
      <project name="chaos-driver-sensors.git" remote="origin" revision="development" path="driver/sensors"/>
      <project name="chaos-driver-misc.git" remote="origin" revision="development" path="driver/misc"/>
