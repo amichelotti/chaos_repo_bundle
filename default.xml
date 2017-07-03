@@ -3,8 +3,12 @@
      <remote name="origin" fetch="https://opensource-stash.infn.it/scm/chaos"/>
      <default revision="development" remote="origin"/>
      <!-- essential -->
-     <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
-     <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools"/>
+    <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
+     <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools">
+       <copyfile src="config/CMakeLists.txt" dest="CMakeLists.txt"/>
+       <copyfile src="config/ChangeLog" dest="ChangeLog"/>
+     </project>
+
      <!-- example -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="examples/ExampleControlUnit"/>
      <!--<project name="chaos-examples.git" remote="origin" revision="development" path="examples"/>-->
@@ -14,7 +18,7 @@
      <project name="chaos-driver-data_import.git" remote="origin" revision="development" path="driver/data-import"/>
      <project name="chaos-driver-daq.git" remote="origin" revision="development" path="driver/daq"/>
      <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
-     <project name="chaos-driver-chaos-mess.git" remote="origin" revision="development" path="driver/chaos-mess"/>
+     <project name="chaos-driver-actuator.git" remote="origin" revision="development" path="driver/actuator"/>
      <project name="chaos-driver-modbus.git" remote="origin" revision="development" path="driver/modbus"/>
      <project name="chaos-driver-sensors.git" remote="origin" revision="development" path="driver/sensors"/>
      <project name="chaos-driver-misc.git" remote="origin" revision="development" path="driver/misc"/>
