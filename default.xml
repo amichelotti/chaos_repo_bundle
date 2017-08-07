@@ -2,7 +2,7 @@
 <manifest>
   <remote name="origin" fetch="git@baltig.infn.it/chaos-lnf-control"/>
   
-          <default revision="master" remote="origin"/>
+  <default revision="development" remote="origin"/>
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools">
