@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="git@baltig.infn.it"/>
+  <remote name="origin" fetch="git@baltig.infn.it/chaos-lnf-control"/>
   
           <default revision="master" remote="origin"/>
      <!-- essential -->
-     <project name="chaos-lnf-control/chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
+     <project name="chaosframework.git" remote="origin" revision="development" path="chaosframework"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools">
        <copyfile src="config/CMakeLists.txt" dest="CMakeLists.txt"/>
        <copyfile src="config/ChangeLog" dest="ChangeLog"/>
@@ -12,7 +12,7 @@
      <!-- example -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="examples/ExampleControlUnit"/>
      <!--<project name="chaos-examples.git" remote="origin" revision="development" path="examples"/>-->
-     <project name="chaos-lnf-control/chaos-example-uitoolkit-command-line.git" remote="origin" revision="development" path="examples/ExampleUIToolkitCommandLine"/>
+     <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="development" path="examples/ExampleUIToolkitCommandLine"/>
      <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="development" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
      <project name="chaos-driver-data_import.git" remote="origin" revision="development" path="driver/data-import"/>
