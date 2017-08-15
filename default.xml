@@ -5,24 +5,24 @@
 	 <!-- essential -->
 
      <project name="chaosframework.git" remote="origin" revision="experimental" path="chaosframework"/>
-     <project name="chaos_bundle_tools.git" remote="origin" revision="development" path="tools"/>
+     <project name="chaos_bundle_tools.git" remote="origin" revision="experimental" path="tools"/>
 
 	 <!-- driver -->
-	 <project name="chaos-driver-siemens-s7.git" remote="origin" revision="development" path="driver/SiemensS7PLC"/>
-	 <project name="chaos-driver-powersupply.git" remote="origin" revision="development" path="driver/powersupply"/>
-	 <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="development" path="driver/oscilloscopes"/>
+	 <project name="chaos-driver-siemens-s7.git" remote="origin" revision="experimental" path="driver/SiemensS7PLC"/>
+	 <project name="chaos-driver-powersupply.git" remote="origin" revision="experimental" path="driver/powersupply"/>
+	 <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="experimental" path="driver/oscilloscopes"/>
 
 	 <!-- example -->
-	 <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="example/ExampleControlUnit"/>
- 	 <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="development" path="example/ExampleUIToolkitCommandLine"/>
- 	 <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="development" path="example/ExampleUIToolkitCWrapper"/>
+	 <project name="chaos-example-control-unit.git" remote="origin" revision="experimental" path="example/ExampleControlUnit"/>
+ 	 <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="experimental" path="example/ExampleUIToolkitCommandLine"/>
+ 	 <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="experimental" path="example/ExampleUIToolkitCWrapper"/>
 
 	 <!-- common -->
-	 <project name="chaos-common-serial.git" remote="origin" revision="development" path="common/serial"/>
-	 <project name="chaos-common-debug.git" remote="origin" revision="development" path="common/debug"/>
-	 <project name="chaos-common-modbus.git" remote="origin" revision="development" path="common/modbus"/>
-	 <project name="chaos-common-powersupply.git" remote="origin" revision="development" path="common/powersupply"/>
-	 <project name="chaos-common-test.git" remote="origin" revision="development" path="common/test"/>
+	 <project name="chaos-common-serial.git" remote="origin" revision="experimental" path="common/serial"/>
+	 <project name="chaos-common-debug.git" remote="origin" revision="experimental" path="common/debug"/>
+	 <project name="chaos-common-modbus.git" remote="origin" revision="experimental" path="common/modbus"/>
+	 <project name="chaos-common-powersupply.git" remote="origin" revision="experimental" path="common/powersupply"/>
+	 <project name="chaos-common-test.git" remote="origin" revision="experimental" path="common/test"/>
 
 	 <!-- experiment -->
 	 <project name="chaos-hst_demo.git" remote="origin" revision="master" path="experimental/HSTDemo"/>
