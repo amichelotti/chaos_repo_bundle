@@ -25,5 +25,5 @@
 	 <project name="chaos-common-test.git" remote="origin" revision="experimental" path="common/test"/>
 
 	 <!-- experiment -->
-	 <project name="chaos-hst_demo.git" remote="origin" revision="master" path="experimental/HSTDemo"/>
+	 <!-- <project name="chaos-hst_demo.git" remote="origin" revision="master" path="experimental/HSTDemo"/> -->
 </manifest>
