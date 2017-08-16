@@ -8,7 +8,7 @@
      <project name="chaos_bundle_tools.git" remote="origin" revision="experimental" path="tools"/>
 
 	 <!-- driver -->
-	 <project name="chaos-driver-siemens-s7.git" remote="origin" revision="experimental" path="driver/SiemensS7PLC"/>
+	 <project name="chaos-driver-siemens-s7.git" remote="origin" revision="development" path="driver/SiemensS7PLC"/>
 	 <project name="chaos-driver-powersupply.git" remote="origin" revision="experimental" path="driver/powersupply"/>
 	 <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="experimental" path="driver/oscilloscopes"/>
 
