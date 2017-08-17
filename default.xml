@@ -13,7 +13,7 @@
 	 <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="experimental" path="driver/oscilloscopes"/>
 
 	 <!-- example -->
-	 <project name="chaos-example-control-unit.git" remote="origin" revision="experimental" path="example/ExampleControlUnit"/>
+	 <project name="chaos-example-control-unit.git" remote="origin" revision="development" path="example/ExampleControlUnit"/>
  	 <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="development" path="example/ExampleUIToolkitCommandLine"/>
  	 <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="experimental" path="example/ExampleUIToolkitCWrapper"/>
 
