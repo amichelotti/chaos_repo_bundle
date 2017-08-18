@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <remote name="origin" fetch="ssh://git@opensource-stash.infn.it:7999/chaos"/>
+     <remote name="origin" fetch="ssh://git@baltig.infn.it/chaos-lnf-control"/>
      <default revision="experimental" remote="origin"/>
 	 <!-- essential -->
 
