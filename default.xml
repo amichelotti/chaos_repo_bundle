@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="ssh://git@baltig.infn.it/chaos-lnf-control/" />
@@ -27,7 +28,9 @@
       <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>-->
      <!-- common -->
      <project name="chaos-common-actuators.git" remote="origin" revision="experimental" path="common/actuators"/>
-     <project name="chaos-common-labview.git" remote="origin" revision="experimental" path="common/labview"/>
+     <!-- 
+	  <project name="chaos-common-labview.git" remote="origin" revision="experimental" path="common/labview"/>
+	  -->
      <project name="chaos-common-misc.git" remote="origin" revision="experimental" path="common/misc"/>
      <project name="chaos-common-serial.git" remote="origin" revision="experimental" path="common/serial"/>
      <project name="chaos-common-crest.git" remote="origin" revision="experimental" path="common/crest"/>
