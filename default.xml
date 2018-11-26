@@ -21,6 +21,7 @@
      <project name="chaos-driver-modbus.git" remote="origin" revision="experimental" path="driver/modbus"/>
      <project name="chaos-driver-sensors.git" remote="origin" revision="experimental" path="driver/sensors"/>
      <project name="chaos-driver-misc.git" remote="origin" revision="experimental" path="driver/misc"/>
+     <project name="chaos-ccalt-controller.git" remote="origin" revision="experimental" path="driver/CCALTController"/>
      <project name="chaos-driver-actuator.git" remote="origin" revision="experimental" path="driver/actuator"/>
      <project name="eledia-plugin.git" remote="origin" revision="experimental" path="driver/eu/eledia-eu"/>
      <!-- <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
