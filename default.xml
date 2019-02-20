@@ -23,11 +23,13 @@
      <project name="chaos-driver-misc.git" remote="origin" revision="experimental" path="driver/misc"/>
      <project name="chaos-ccalt-controller.git" remote="origin" revision="experimental" path="driver/CCALTController"/>
      <project name="chaos-driver-actuator.git" remote="origin" revision="experimental" path="driver/actuator"/>
+     <project name="chaos-MultiChannel-powersupply.git" remote="origin" revision="experimental" path="driver/MultiChannelPowerSupply"/>
      <project name="eledia-plugin.git" remote="origin" revision="experimental" path="driver/eu/eledia-eu"/>
      <!-- <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
       <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>-->
      <!-- common -->
      <project name="chaos-common-actuators.git" remote="origin" revision="experimental" path="common/actuators"/>
+     <project name="chaos-common-MPSSimulateDriver.git" remote="origin" revision="experimental" path="common/MultiChannelPowerSupply"/>
      <!-- 
 	  <project name="chaos-common-labview.git" remote="origin" revision="experimental" path="common/labview"/>
 	  -->
