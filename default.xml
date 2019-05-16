@@ -1,36 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-    <remote name="origin" fetch="ssh://git@baltig.infn.it/chaos-lnf-control/" />
-     <default revision="master" remote="origin"/>
+  <remote name="origin" fetch="ssh://git@baltig.infn.it/chaos-lnf-control/" />
+  
+  <default revision="master" remote="origin"/>
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="master" path="chaosframework"/>
-     <project name="chaos_bundle_tools.git" remote="origin" revision="master" path="tools"/>
-     <!-- examples -->
+     <project name="chaos_bundle_tools.git" remote="origin" revision="master" path="tools">
+       <copyfile src="config/CMakeLists.txt" dest="CMakeLists.txt"/>
+       <copyfile src="config/ChangeLog" dest="ChangeLog"/>
+     </project>
+     <!-- example -->
      <project name="chaos-example-control-unit.git" remote="origin" revision="master" path="examples/ExampleControlUnit"/>
-     <!--<project name="chaos-examples.git" remote="origin" revision="development" path="examples"/>-->
+     <!--<project name="chaos-examples.git" remote="origin" revision="master" path="examples"/>-->
      <project name="chaos-example-uitoolkit-command-line.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCommandLine"/>
      <project name="chaos-example-uitoolkit-cwrapper.git" remote="origin" revision="master" path="examples/ExampleUIToolkitCWrapper"/>
      <!-- driver -->
      <project name="chaos-driver-data_import.git" remote="origin" revision="master" path="driver/data-import"/>
-     <project name="chaos-driver-plc.git" remote="origin" revision="master" path="driver/plc"/>
      <project name="chaos-driver-daq.git" remote="origin" revision="master" path="driver/daq"/>
-     <project name="chaos-driver-chaos-mess.git" remote="origin" revision="master" path="driver/chaos-mess"/>
+     <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
      <project name="chaos-driver-modbus.git" remote="origin" revision="master" path="driver/modbus"/>
      <project name="chaos-driver-sensors.git" remote="origin" revision="master" path="driver/sensors"/>
      <project name="chaos-driver-misc.git" remote="origin" revision="master" path="driver/misc"/>
+     <project name="chaos-ccalt-controller.git" remote="origin" revision="master" path="driver/CCALTController"/>
      <project name="chaos-driver-actuator.git" remote="origin" revision="master" path="driver/actuator"/>
-    <!-- <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
-     <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>-->
+     <project name="chaos-MultiChannel-powersupply.git" remote="origin" revision="master" path="driver/MultiChannelPowerSupply"/>
+     <project name="eledia-plugin.git" remote="origin" revision="master" path="driver/eu/eledia-eu"/>
+     <!-- <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
+      <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>-->
      <!-- common -->
      <project name="chaos-common-actuators.git" remote="origin" revision="master" path="common/actuators"/>
-     <!--
-	 <project name="chaos-common-labview.git" remote="origin" revision="master" path="common/labview"/>
-	 -->
+     <project name="chaos-common-MPSSimulateDriver.git" remote="origin" revision="master" path="common/MultiChannelPowerSupply"/>
+     <!-- 
+	  <project name="chaos-common-labview.git" remote="origin" revision="master" path="common/labview"/>
+	  -->
      <project name="chaos-common-misc.git" remote="origin" revision="master" path="common/misc"/>
      <project name="chaos-common-serial.git" remote="origin" revision="master" path="common/serial"/>
+     <project name="chaos-common-crest.git" remote="origin" revision="master" path="common/crest"/>
+     <project name="chaos-common-vme.git" remote="origin" revision="master" path="common/vme"/>
      <project name="chaos-common-debug.git" remote="origin" revision="master" path="common/debug"/>
      <project name="chaos-common-modbus.git" remote="origin" revision="master" path="common/modbus"/>
-     <project name="chaos-common-crest.git" remote="origin" revision="master" path="common/crest"/>
      <project name="chaos-common-powersupply.git" remote="origin" revision="master" path="common/powersupply"/>
      <project name="chaos-common-test.git" remote="origin" revision="master" path="common/test"/>
      <!-- service -->
