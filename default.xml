@@ -5,6 +5,8 @@
   <default revision="master" remote="origin"/>
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="master" path="chaosframework"/>
+     <project name="chaos_dashboard.git" remote="origin" revision="master" path="html/chaos_dashboard"/>
+
      <project name="chaos_bundle_tools.git" remote="origin" revision="master" path="tools">
        <copyfile src="config/CMakeLists.txt" dest="CMakeLists.txt"/>
        <copyfile src="config/ChangeLog" dest="ChangeLog"/>
