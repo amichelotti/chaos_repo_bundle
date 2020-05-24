@@ -5,7 +5,7 @@
   <default revision="experimental" remote="origin"/>
      <!-- essential -->
      <project name="chaosframework.git" remote="origin" revision="experimental" path="chaosframework"/>
-     <project name="chaos_dashboard.git" remote="origin" revision="experimental" path="html/chaos_dashboard"/>
+     <project name="chaos_dashboard.git" sync-s="true" remote="origin" revision="experimental" path="html/chaos_dashboard"/>
      <project name="chaos_bundle_tools.git" remote="origin" revision="experimental" path="tools">
        <copyfile src="config/CMakeLists.txt" dest="CMakeLists.txt"/>
        <copyfile src="config/ChangeLog" dest="ChangeLog"/>
