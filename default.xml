@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@baltig.infn.it/chaos-lnf-control/" />
+  <remote name="origin" fetch="https://github.com/amichelotti/chaos_repo_bundle.git" />
   
   <default revision="experimental" remote="origin"/>
      <!-- essential -->
@@ -25,7 +25,7 @@
      <project name="chaos-ccalt-controller.git" remote="origin" revision="experimental" path="driver/CCALTController"/>
      <project name="chaos-driver-actuator.git" remote="origin" revision="experimental" path="driver/actuator"/>
      <project name="chaos-MultiChannel-powersupply.git" remote="origin" revision="experimental" path="driver/MultiChannelPowerSupply"/>
-     <project name="eledia-plugin.git" remote="origin" revision="experimental" path="driver/eu/eledia-eu"/>
+
      <!-- <project name="chaos-driver-powersupply.git" remote="origin" revision="master" path="driver/powersupply"/>
       <project name="chaos-driver-oscilloscopes.git" remote="origin" revision="master" path="driver/oscilloscopes"/>-->
      <!-- common -->
