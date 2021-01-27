@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <remote name="origin" fetch="https://github.com/amichelotti/chaos_repo_bundle.git" />
+  <remote name="origin" fetch="https://github.com/amichelotti/" />
   
   <default revision="experimental" remote="origin"/>
      <!-- essential -->
